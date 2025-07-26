@@ -319,4 +319,144 @@
     background-color: #E95A08;
     border: none;
 }
+/* footer content */
+
+.footer-content{
+    max-width: 1145px;
+    margin: auto;
+    gap: 50px;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+
+}
+.footer-left p{
+   max-width: 360px;
+}
+
+
+.footer-links ul li{
+    list-style: none;
+    margin: 15px;
+   
+}
+.footer-social {
+    
+    padding: 10px;
+    
+}
+.footer-social ul a img{
+    margin: 10px;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 576px) {
+
+    .navbar ul li, .home .shop .about{
+       visibility: hidden;
+    }
+    .card-container {
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+      
+    }
+    .banner-section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .banner{
+       
+        /* width: 360px;
+        height: 147px; */
+        order: 2;
+    }
+    .banner-img{
+        /* width: 394px;
+        height: 245px; */
+        order: 1;
+    }
+   
+    
+    
+    .card-style{
+        display: grid;
+        grid-template-columns: repeat(2, 8fr);
+       
+        
+    }
+    .card{
+        /* width: 171px;
+        height: 340.5;
+        gap: 20px;
+        padding-left: 10px 0 10px; */
+    }
+     .flower-section {
+        display: inline-block;
+        /* flex-direction: column; */
+        /* text-align: center; */
+        
+        
+      
+        
+     }
+     .flower-img{
+        width: 400px;
+        height: 396px;
+        margin-left: 40px;
+        
+     }
+     .flower-img::before{
+        display: none;
+     }
+     .flower{
+        
+        width: 361px;
+        height: 234px;
+     }
+     .flower-tittle{
+        font-size: 2rem;
+     }
+     
+    .deals{
+        width: 393px;
+        height: 117px;
+    }
+    .card-container{
+        height: 581px;
+        width: 361px;
+    } 
+    .card-large{
+        width: 361px;
+        height: 172px;
+    }
+     
+    .newsletter{
+        width: 393px;
+        height: 276px;
+        
+        
+    }
+    .colorful-tittle{
+        font-size: medium;
+        
+    }
+    .from input {
+        width: 218px;
+        height: 50px;
+        
+    }
+    .from .color-btn{
+        width: 103px;
+        height: 50px;
+    }
+    
+   .footer-content, .footer-links{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 30px;
+    }
+
+    
+}
 
