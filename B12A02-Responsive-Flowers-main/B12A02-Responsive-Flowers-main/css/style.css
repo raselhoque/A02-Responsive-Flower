@@ -83,7 +83,55 @@
 
 .banner-img {
     margin-top: 5rem;
-    height: 350px;
+    /* height: 350px;
     width: 570px;
-    justify-content: space-between;
+    justify-content: space-between; */
+}
+
+/* plant section */
+
+.plant {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.plant-tittle {
+    font-size: 2rem;
+}
+
+.plant-description {
+    max-width: 888px;
+    text-align: center;
+    margin: auto;
+}
+
+.card-style {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    max-width: 1145px;
+    margin: auto;
+
+}
+
+.card {
+    margin-top: 2rem;
+
+}
+
+.card-tittle {
+    text-align: center;
+
+}
+
+.price {
+    text-align: center;
+}
+
+.card-btn {
+    color: white;
+    background-color: #E95A08;
+    width: 100%;
+    padding: 15px;
+    border: none;
 }
