@@ -111,7 +111,61 @@
       <!-- Flower Lover Section -->
 
     <section>
-        <div class="flower-section display-flex">
+        <div class="flower-section display-flex">/* Flower Section */
+
+.flower-section {
+    max-width: 1145px;
+    height: 597px;
+    gap: 30px;
+    margin: 7rem auto 0 auto;
+    /* margin-top: 4rem; */
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flower {
+
+    max-width: 540px;
+    padding: 20px 0 0 40px;
+
+}
+
+.flower-img {
+    align-items: center;
+    background: url("/assets/flower-store.png") no-repeat center center;
+    background-size: cover;
+    height: 597px ;
+    width: 1140px;
+    display: inline-block;
+    margin-top: 0;
+
+}
+
+.flower-tittle {
+    font-size: 3.5rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.flower-description {
+    margin: 10px 0;
+}
+
+.flower-img::before {
+    background: url("/assets/trusted-badge.png") no-repeat center center;
+    background-size: contain;
+    content: " ";
+    height: 286px;
+    width: 286px;
+    top: 0;
+    right: 0;
+    position: relative;
+    float: right;
+    transform: translate(35%, -40%);
+
+}
+
             <div class="flower-img">
                 <!-- <img src="assets/flower-store.png" alt="" class="img"> -->
 
@@ -133,6 +187,41 @@
             </div>
         </div>
 
+    </section>
+     <!--  Latest Deals Section-->
+
+
+    <section>
+        <div class="latest-deals">
+            <div class="deals">
+                <h1 class="deals-tittle"><span class="text-color">Latest </span> Deals</h1>
+                <p class="deals-description text-gray">Indulge your senses with the beauty and fragrance of our fresh
+                    flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <div class="card-container">
+                <div class="left-column">
+                    <div class="card-small" style="background-image: url('/assets/deal-bloom.png');">
+                        <div class="card-text">
+                            <h3>60% Off | Bloom Plant</h3>
+                            <a href="#" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                    <div class="card-small" style="background-image: url('/assets/deal-ana.png');">
+                        <div class="card-text">
+                            <h3>30% Off | Ana Plant</h3>
+                            <a href="#" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-large" style="background-image: url('/assets/deal-zabo.png');">
+                    <div class="card-text">
+                        <h2>25% Off | Zabo Plant</h2>
+                        <a href="#" class="btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </section>
 
             
