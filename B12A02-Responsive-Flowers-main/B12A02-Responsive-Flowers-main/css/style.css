@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Shared Style */
+
+.display-flex {
+    display: flex;
+}
+
+.text-color {
+    color: #E95A08;
+}
+
+.text-gray {
+    color: #424242;
+}
+
+.noto-serif-font {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+/* navbar style */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    padding: 0;
+
+
+}
+.lo {
+    /* height: 60px; */
+    width: 135px;
+    scale: 0.6;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding: 0;
+    /* height: 80px; */
+
+
+}
+.navbar a{
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+
+
+}
+ .home, .bxs-cart{
+     color: black;    
+ }
+
+ /* Banner Part */
+
+.banner-section{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    max-width: 1145px;
+    margin: auto;
+}
+
+.banner-tittle {
+    font-size: 3rem;
+
+
+    margin-top: 5rem;
+    max-width: 570px;
+}
+
+.banner-description {
+    max-width: 570px;
+
+}
+
+.banner-img {
+    margin-top: 5rem;
+    height: 350px;
+    width: 570px;
+    justify-content: space-between;
+}
