@@ -135,3 +135,57 @@
     padding: 15px;
     border: none;
 }
+/* Flower Section */
+
+.flower-section {
+    max-width: 1145px;
+    height: 597px;
+    gap: 30px;
+    margin: 7rem auto 0 auto;
+    /* margin-top: 4rem; */
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flower {
+
+    max-width: 540px;
+    padding: 20px 0 0 40px;
+
+}
+
+.flower-img {
+    align-items: center;
+    background: url("/assets/flower-store.png") no-repeat center center;
+    background-size: cover;
+    height: 597px ;
+    width: 1140px;
+    display: inline-block;
+    margin-top: 0;
+
+}
+
+.flower-tittle {
+    font-size: 3.5rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.flower-description {
+    margin: 10px 0;
+}
+
+.flower-img::before {
+    background: url("/assets/trusted-badge.png") no-repeat center center;
+    background-size: contain;
+    content: " ";
+    height: 286px;
+    width: 286px;
+    top: 0;
+    right: 0;
+    position: relative;
+    float: right;
+    transform: translate(35%, -40%);
+
+}
