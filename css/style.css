@@ -164,12 +164,12 @@
     margin: 10px 0;
 }
 .img-badge{
-    background: url("/assets/flower-store.png") no-repeat center center;
+    background: url("../assets/flower-store.png") no-repeat center center;
     height: 600px;
     width: 600px;
 }
 .img-badge::before {
-    background: url("/assets/trusted-badge.png") no-repeat center center;
+    background: url("../assets/trusted-badge.png") no-repeat center center;
     background-size: cover;
     content: "";
     height: 286px;
@@ -278,7 +278,7 @@
 }
 .join-section{
     text-align: center;
-    background: url("/assets/news-letter-bg.png") no-repeat center center;
+    background: url("../assets/news-letter-bg.png") no-repeat center center;
     padding: 250px 0;
     margin: 0 70px;
 }
