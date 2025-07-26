@@ -284,3 +284,39 @@
   font-weight: bold;
   text-align: center;
 }
+/* colorful section */
+
+.newsletter{
+    background-image: url("/assets/news-letter-bg.png");
+    background-size: cover;
+    align-content: center;
+    height: 533px;
+    width: 1440px;
+    margin: auto;
+    text-align: center;
+   margin-top: 5rem;
+        
+}
+.colorful{
+    margin: auto;
+}
+.colorful-tittle{
+    font-size: 3rem;
+    color: white;
+  
+}
+.from{
+    margin: auto;
+}
+.from input{
+    width: 586px;
+    height: 50px;
+}
+.from .color-btn{
+    width: 186px;
+    height: 50px;
+    color: white ;
+    background-color: #E95A08;
+    border: none;
+}
+
